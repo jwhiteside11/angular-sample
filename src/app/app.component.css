@@ -1,0 +1,30 @@
+/* AppComponent's private CSS styles */
+h1 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+nav {
+  display: grid;
+  justify-items: center;
+}
+
+nav a {
+  display: grid;
+  padding: 1rem;
+  margin: 10px;
+  width: 40vw;
+  text-decoration: none;
+  background-color: #e8e8e8;
+  color: #3d3d3d;
+  border-radius: 4px;
+  justify-items: center;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #42545C;
+}
+nav a.active {
+  background-color: black;
+}
